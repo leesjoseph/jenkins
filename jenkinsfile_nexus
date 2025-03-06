@@ -1,0 +1,19 @@
+stage('Upload Artifact to Nexus') {
+            steps {
+                nexusArtifactUploader(
+                nexusVersion: 'nexus3',
+                protocol: 'http',
+                nexusUrl: '172.31.8.196:8081',
+                groupId: 'QA',
+                version: '${BUILD_ID}-${BUILD_TIMESTAMP}',
+                repository: 'vprofile-artifact',
+                credentialsId: 'nexus-credential',
+                artifacts: [
+                    [artifactId: 'vproapp',
+                    classifier: '',
+                    file: 'target/vprofile-v2.war',
+                    type: 'war']
+                ]
+            )
+            }
+        }
