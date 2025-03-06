@@ -1,4 +1,3 @@
-# jenkins
 ## Docker Jenkins
 ### 플러그인
     1. Docker Push and Build
