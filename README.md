@@ -6,3 +6,9 @@
     4. AWS SDK: All
 ## Nexus Jenkins
 https://github.com/jenkinsci/nexus-artifact-uploader-plugin
+
+## SonarQube Jenkins
+### 스텝
+    1. Jenkins - Tools - SonarQube Scanner 설치
+    2. SonarQube 서버에서: Account - Security - Generate Token
+    3. Jenkins - System - SonarQube servers - Env Variable 체크 - Name - Server URL
