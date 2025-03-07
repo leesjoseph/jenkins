@@ -1,5 +1,5 @@
 ## ECS Jenkins
-https://www.notion.so/ECS-Setup-1af8e0b77a8b80caae50ea136837eb8a?pvs=4
+https://www.notion.so/1ae8e0b77a8b80de80baf5e1d2e6de8d?pvs=4
 
 ## Docker Jenkins
 ### 플러그인
